@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# MLflow local artifacts
+mlruns/
+mlartifacts/
+
+# MLflow local database
+mlflow.db
+*.db-shm
+*.db-wal
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model files / checkpoints
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing / linting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
